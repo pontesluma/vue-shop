@@ -1,24 +1,18 @@
-# my-app
+# Vue Shop
+
+Simple e-commerce for Vue and Vuex study
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run project (hot-reloads for development)
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Run fake server
 ```
-yarn build
+yarn json-server --watch db.json
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

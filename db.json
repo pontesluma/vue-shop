@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "shirt 1",
+      "price": 19.9,
+      "img": "https://images.tcdn.com.br/img/img_prod/737444/180_camisa_memento_mori_lembre_se_de_que_voce_vai_morrer_820203_1_20200808171249.jpg"
+    },
+    {
+      "id": 2,
+      "name": "shirt 2",
+      "price": 14.9,
+      "img": "https://images.tcdn.com.br/img/img_prod/737444/180_camisa_memento_mori_principios_morais_estoicos_820205_1_20200808171249.jpg"
+    },
+    {
+      "id": 3,
+      "name": "shirt 3",
+      "price": 29.9,
+      "img": "https://images.tcdn.com.br/img/img_prod/737444/180_camiseta_carpe_diem_memento_mori_caveira_820210_1_20200808171249.jpg"
+    },
+    {
+      "id": 4,
+      "name": "shirt 4",
+      "price": 21.9,
+      "img": "https://images.tcdn.com.br/img/img_prod/737444/180_camiseta_platao_socrates_aristoteles_na_caverna_820229_1_20200808171249.jpg"
+    }
+  ]
+}
