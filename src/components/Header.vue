@@ -5,7 +5,7 @@
       <router-link to='/'>Home</router-link>
       <router-link to='/cart'>
         Cart
-        <div class="flag">{{cartQuantity}}</div>
+        <div v-if="cartQuantity !== 0" class="flag">{{cartQuantity}}</div>
       </router-link>
     </div>
   </div>

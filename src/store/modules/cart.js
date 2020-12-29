@@ -13,9 +13,9 @@ const getters = {
   cartTotalPrice: (state) => {
     const price = state.cart.reduce((total, item) => total + (item.quantity * item.price), 0);
     const moneyFormat = (num) => {
-      let [i, d] = String(num).split('.');
+      let [i, d] = String(num.toFixed(2)).split('.');
       
-      if (d.length === 0) d = '00';
+      if (!d || d.length === 0) d = '00';
       if (d.length === 1) d = d + '0';
 
       return `R$ ${i},${d}`;
