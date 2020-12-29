@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <Header/>
-    <router-view />
+    <div class="route-content">
+      <router-view />
+    </div>
+    <ToastList />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import ToastList from './components/ToastNotifications/ToastList';
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    ToastList
   }
 }
 </script>

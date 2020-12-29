@@ -26,7 +26,10 @@ const getters = {
 };
 
 const actions = {
-  addItem: ({ commit }, item) => commit('newItem', item),
+  addItem: ({ commit, dispatch }, item) => {
+    dispatch('addNotification', { title: item.name, text: 'Item was added to your cart!' }, {root:true});
+    commit('newItem', item);
+  },
   removeItem: ({ commit }, itemId) => commit('removeItem', itemId),
 };
 
